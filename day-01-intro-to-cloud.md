@@ -123,3 +123,9 @@ platforms.
 ![Highly availabe web application architecture](diagrams/day-01-cloud-overview.png)
 
 This architecture represents a basic highly available web application deployed on AWS, where an Application Load Balancer distributes incoming traffic across multiple EC2 instances to ensure scalability and fault tolerance.
+
+## Hands-On (Day 1)
+- Installed AWS CLI v2 on WSL2
+- Configured IAM user with CLI access
+- Verified AWS identity using STS
+
