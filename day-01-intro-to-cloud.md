@@ -27,16 +27,16 @@ with pay-as-you-go pricing.
 - **PaaS** – Platform as a Service  
   Example: AWS Elastic Beanstalk, Azure App Service and GCP App Engine
 
-  - **CaaS** – Container as a Service  
+- **CaaS** – Container as a Service  
   Example: AWS Elastic Kubernetes Service (EKS), Azure Azure Kubernetes Service (AKS) and GCP Kubernetes Engine
 
-  - **FaaS** – Function as a Service  
+- **FaaS** – Function as a Service  
   Example: AWS Lamda, Azure Functions and GCP Cloud Functions
 
 - **SaaS** – Software as a Service  
   Example: Gmail, Office 365
 
-  ### 2. Data
+### 2. Data
 
   - **Object Storage**   
   Example: AWS Simple Storage Service (S3), Azure Blobs and GCP Cloud storage
@@ -44,7 +44,7 @@ with pay-as-you-go pricing.
   - **Relational**   
   Example: AWS Relational Database Service (RDS), Azure SQL database and GCP Cloud SQL
 
-    - **NoSQL**   
+  - **NoSQL**   
   Example: AWS DynamoDB, Azure Cosmos DB and GCP Cloud Bigtable
 
 ### Deployment Models
@@ -66,7 +66,7 @@ As a full-stack developer, cloud allows me to:
 - Focus more on product logic than hardware
 - Transition into roles like Cloud Engineer, Platform Engineer and DevOps Engineer
 
-### Why is cloud an operating model, not just hosting?
+### - Why is cloud an operating model, not just hosting?
 
 Cloud is an operating model, not just hosting, because it changes how
 computing resources are delivered, managed, and consumed. Instead of
@@ -81,7 +81,7 @@ enable elasticity, automation, and rapid experimentation, which go far
 beyond traditional on-premises hosting.
 
 
-### How does cloud reduce friction for developers?
+### - How does cloud reduce friction for developers?
 
 Cloud reduces friction for developers by providing centralized,
 standardized, and automated platforms for building and deploying
@@ -95,7 +95,7 @@ effectively and reduce configuration drift, discrepancies, and
 deployment conflicts.
 
 
-### Which cloud role (DevOps, Cloud Eng, Architect) feels most natural to you and why?
+### - Which cloud role (DevOps, Cloud Eng, Architect) feels most natural to you and why?
 
 The cloud role that feels most natural to me is DevOps, because it
 focuses on automating the processes involved in building, testing, and
