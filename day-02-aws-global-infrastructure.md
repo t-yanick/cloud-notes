@@ -168,7 +168,80 @@ Traffic from users is routed through an Application Load Balancer to EC2 instanc
 
 ---
 
-## Hands-On (CLI – Read Only)
+## Hands-On (CLI )
+
+## AWS Compute Fundamentals – Hands-on Summary
+
+### Objective
+- Provision an EC2 instance on AWS
+- Establish secure SSH access from a Windows machine
+- Transfer files from local system to EC2 using SCP
+
+### Environment
+- **Local OS:** Windows 11
+- **Shells:** Windows PowerShell, Ubuntu (WSL2)
+- **Cloud Provider:** AWS
+- **Instance OS:** Amazon Linux 2023
+- **Authentication:** SSH key pair (`.pem`)
+
+### EC2 Provisioning
+- Created an EC2 instance via AWS Management Console
+- Selected Amazon Linux 2023 AMI
+- Associated an SSH key pair
+- Configured Security Group to allow SSH (port 22)
+- Obtained public IPv4 address for remote access
+
+### Secure SSH Access
+- Connected to EC2 using SSH from PowerShell:
+  ```powershell
+  ssh ec2-user@<public-ip> -i myfirstec2instancekeypair.pem
+
+- Verified successful login and home directory access
+
+- Remote Directory Setup
+
+- Created a target directory on EC2 to receive files:
+
+ ```mkdir scptarget ```
+
+- Local File Preparation
+
+- Created multiple text files on Windows:
+
+ ```Hello1.txt → Hello6.txt ```
+
+- Verified file existence and contents locally
+
+- File Transfer with SCP
+
+- Copied files from Windows to EC2 using SCP over SSH:
+
+ ```scp -i myfirstec2instancekeypair.pem Hello*.txt ec2-user@<public-ip>:~/scptarget/  ```
+
+
+- Observed successful encrypted file transfer
+
+- Verification
+
+- Reconnected to EC2 via SSH
+
+- Confirmed files were present in target directory:
+
+ ```cd scptarget && ls  ```
+
+
+
+## Key Concepts Learned
+
+- EC2 instances are accessed using SSH key-based authentication
+
+- SSH keys are reused for both remote access and secure file transfer
+
+- SCP operates over SSH, ensuring encrypted data in transit
+
+- File transfer can be performed without interactive login
+
+This workflow is foundational for DevOps automation and CI/CD pipelines
 - Commands executed:
   - aws iam list-users
   - aws iam list-roles
