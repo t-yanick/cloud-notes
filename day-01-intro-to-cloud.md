@@ -19,7 +19,7 @@ with pay-as-you-go pricing.
 
 - **Private clouds** (Running cloud platform in on-premises datacenters)
 
-## Cloud Platform Tecnologies
+## Cloud Platform Technologies
 ### 1. Compute
 - **IaaS** – Infrastructure as a Service  
   Example: AWS Elastic Compute Cloud (EC2), Azure Virtual Machines and GCP Compute Engine
@@ -28,7 +28,7 @@ with pay-as-you-go pricing.
   Example: AWS Elastic Beanstalk, Azure App Service and GCP App Engine
 
 - **CaaS** – Container as a Service  
-  Example: AWS Elastic Kubernetes Service (EKS), Azure Azure Kubernetes Service (AKS) and GCP Kubernetes Engine
+  Example: AWS Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS) and GCP Kubernetes Engine
 
 - **FaaS** – Function as a Service  
   Example: AWS Lamda, Azure Functions and GCP Cloud Functions

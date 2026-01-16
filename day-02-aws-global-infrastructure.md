@@ -27,7 +27,7 @@ AWS operates globally to provide:
 
 ### - How global infrastructure supports scalability and resilience
 
-Global infrastructure supports scalability and resilience through the its layered nature. Regions contain multiple isolated Availability Zones and datacenters with near-limitless capacity. Regions are geographically separate, and each has multiple AZs with unique power, cooling and networking, acting as independent failure domains.
+Global infrastructure supports scalability and resilience through its layered nature. Regions contain multiple isolated Availability Zones and datacenters with near-limitless capacity. Regions are geographically separate, and each has multiple AZs with unique power, cooling and networking, acting as independent failure domains.
 
 ---
 
